@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: flywaytest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.43.16:3306/flyway?serverTimezone=UTC
+    username: root
+    password: 19650223.Chen>
+server:
+  port: 8888
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

@@ -103,7 +103,7 @@
                 <configuration>
                     <url>jdbc:mysql://192.168.43.16:3306/flyway?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT</url>
                     <user>root</user>
-                    <password>19650223.Chen></password>
+                    <password>root</password>
                     <driver>com.mysql.cj.jdbc.Driver</driver>
                 </configuration>
             </plugin>
